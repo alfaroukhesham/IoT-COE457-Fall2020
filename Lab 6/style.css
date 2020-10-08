@@ -1,0 +1,63 @@
+code {
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-family: "Sofia";
+    padding: 24px 15px;
+    text-align: center;
+  }
+header,
+.section,
+.aside,
+  .footer {
+    margin: 0 1.5% 24px 1.5%;
+  }
+  .section {
+    float: left;
+    width: 63%;
+  }
+  .section img{
+      width: 95%;
+      max-height: 80%;
+  }
+  .aside {
+    float: right;
+    width: 31%;
+  }
+  .aside img{
+      height: 350px;
+      padding-left: 10px;
+  }
+  .footer {
+    clear: both;
+    margin-bottom: 0;
+  }
+  .Below-img{
+      width: 250px;
+      height: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    .section{width: 100%;}
+  .section img {
+    max-width: 300px;
+  }
+  .aside{
+      padding-left: 2%;
+      float: left;
+  }
+  .aside img{
+      max-height: 150px;
+      display: inline-block;
+  }
+}
+@media only screen and (max-width: 992px){
+    .section{width: 100%;}
+  .section img {
+   max-width: 400px;
+  }
+  .aside{
+      padding-left: 2%;
+      float: left;
+  }
+}
